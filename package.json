@@ -1,0 +1,19 @@
+{
+  "name": "1.-starter-landing-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "postcss ./src/input.css -o dist/main.css --watch",
+    "minify": "npx tailwindcss -o ./dist/minified.css --minify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.8",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.1.7"
+  }
+}
